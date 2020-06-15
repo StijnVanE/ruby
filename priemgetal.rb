@@ -2,7 +2,7 @@ puts "geef een getal:"
 getal=gets.chomp.to_i
 count=0
 if getal==0 || getal==1
-	puts "#{getal} is niet een priemgetal"
+	puts "#{getal} is een priemgetal"
 else
 	i=1
 	while(i<getal)
